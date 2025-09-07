@@ -1,0 +1,5 @@
+# Node.js dependencies
+db-migrate/node_modules/
+db-service/node_modules/
+
+
