@@ -67,7 +67,13 @@ CREATE DATABASE my_project_db;
 cd ./db-migrate
 ```
 
-2. Update the `.env` file with your environment variables. Example:
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Update the `.env` file with your environment variables. Example:
 
 ```env
 DB_HOST=localhost
@@ -76,16 +82,16 @@ DB_PASSWORD=root
 DB_NAME=my_project_db
 ```
 
-3. Make the migration script executable:
+4. Make the migration script executable:
 
 ```bash
-chmod +x ./run-migration.sh
+chmod +x ./run-migrations.sh
 ```
 
-4. Execute the migration script:
+5. Execute the migration script:
 
 ```bash
-./run-migration.sh
+./run-migrations.sh
 ```
 
 > This will create all necessary tables and insert default records.  
