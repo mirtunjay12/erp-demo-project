@@ -153,12 +153,12 @@ The application should now be running locally on the configured port.
 erp-demo-project/
 │
 ├─ db-migrate/           # Database migration scripts and seed files
-│   ├─ run-migration.sh  # Bash script to run all migrations
-│   └─ database.json     # Database configuration file
+│   └─ run-migration.sh  # Bash script to run all migrations
 │
 ├─ db-service/           # Node.js backend service
 │
 └─ README.md             # Project documentation
+
 
 ```
 
