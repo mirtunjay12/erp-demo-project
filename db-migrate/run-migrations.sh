@@ -8,7 +8,7 @@ echo "Running DB Migrations"
 echo "=============================="
 
 # Run migrations
-npx db-migrate up
+npx db-migrate --config database.js up
 
 # echo "=============================="
 # echo "Running DB Seeds"
