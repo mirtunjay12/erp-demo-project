@@ -24,7 +24,7 @@ CREATE TABLE users (
         FOREIGN KEY (role_id) 
         REFERENCES roles(role_id) 
         ON DELETE SET NULL 
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE,
 
     CONSTRAINT fk_user_created_by 
         FOREIGN KEY (created_by) 
